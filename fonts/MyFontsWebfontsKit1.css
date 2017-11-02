@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3466623, 2017-10-17T22:19:27-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Garamold by E-phemera
+ * URL: https://www.myfonts.com/fonts/ephemera/garamold/regular/
+ * Copyright: Copyright (c) 2006 by E-phemera Fonts. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3466623
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34e57f");
+
+  
+@font-face {font-family: 'Garamold';src: url('webfonts/34E57F_0_0.eot');src: url('webfonts/34E57F_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E57F_0_0.woff2') format('woff2'),url('webfonts/34E57F_0_0.woff') format('woff'),url('webfonts/34E57F_0_0.ttf') format('truetype');}
+ 
