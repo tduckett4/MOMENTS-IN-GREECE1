@@ -140,9 +140,9 @@
     text-align: center;
 }
 .main-footer {
-  padding-top: 60px;
+  margin: 20px 0 0 0;
   padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949;
+  border-top: 2px solid #ffa949;
 }
 
 .LearnMoreContent {
@@ -241,12 +241,37 @@ a:active {
               url(../img/IMG_5775.jpg) no-repeat center;
   background-size: cover;
 }
+/* Flickity Carousel -------------------- */
+    .carousel-cell {
+      width: 100%; /* full width */
+      height: 475px; /* height of carousel */
+      margin: 35px 10px 0 0;
+    }
 
-.carousel-cell {
-  width: 100%; /* full width */
-  height: 100px; /* height of carousel */
-  margin-right: 10px;
-}
+    /* position dots in carousel */
+    .flickity-page-dots {
+      bottom: 0px;
+    }
+    /* white circles */
+    .flickity-page-dots .dot {
+      width: 12px;
+      height: 12px;
+      opacity: .3;
+      background: transparent;
+      border: 2px solid white;
+    }
+    /* fill-in selected dot */
+    .flickity-page-dots .dot.is-selected {
+      background: white;
+      opacity: .3;
+    }
+
+    /* forward and backward arrows styling */
+    .flickity-prev-next-button {
+      outline: none;
+      opacity: .4;
+    }
+
 
 /* Media Queries -------------------- */
 @media screen and (min-width: 480px) {
