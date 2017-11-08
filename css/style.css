@@ -274,12 +274,48 @@ a:active {
 
 
 /* Media Queries -------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1100px) {
+
+  nav {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+
+  }
+
+  .learnMoreH1,
+  .AthensH1 {
+      text-align: center;
+      width: 100%;
+      font-size: 70px;
+      margin: 0;
+  }
+
+  .primary-content {
+    width: 75%;
+    padding-top: 75px;
+    padding-bottom: 95px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    max-width: 960px;
+    font-size: 10px;
+  }
+
+  .LearnMoreLink {
+    font-size: 60px;
+
+  }
+  
+}
+
+@media screen and (max-width: 414px) {
   nav {
     padding: 10px 0;
     text-align: center;
     font-size: 12px;
-    width: 100%
+    width: 100%;
   }
 
   .learnMoreH1,
@@ -301,38 +337,5 @@ a:active {
     font-size: 10px;
 }
 
-}
-@media screen and (min-width: 600px) {
-  body {
 
-  }
-}
-
-@media screen and (min-width: 900px) {
-  body {
-
-  }
-
-  .text-box {
-      height: 91%;
-}
-
-@media screen and (min-width: 1200px) {
-  body {
-
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  body {
-
-  }
-
-  h5{
-    font-size: 60px
-  }
-
-  .small{
-    font-size: 40px
-  }
 }
