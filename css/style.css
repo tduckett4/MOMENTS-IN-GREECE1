@@ -47,7 +47,8 @@
     display: inline-block;
     font-size: 5vw; /*or whatever you want*/
     color: #ffa949;
-    text-shadow: 2px 2px 10px black
+    text-shadow: 2px 2px 10px black;
+
   }
 
   h3 {
@@ -218,7 +219,8 @@ a:active {
    display: inline-block;
    font-size: 2.5vw;
    color: #FFF;
-   text-shadow: 2px 2px 10px black
+   text-shadow: 2px 2px 10px black;
+
 }
 
 /**Header Images**/
@@ -236,7 +238,7 @@ a:active {
 }
 .main-header {
   padding-top: 74px;
-  height: 630px;
+  height: 436px;
   background: linear-gradient(14deg, #fff, transparent),
               url(../img/IMG_5775.jpg) no-repeat center;
   background-size: cover;
@@ -305,10 +307,29 @@ a:active {
 
   .LearnMoreLink {
     font-size: 60px;
-
   }
-  
 }
+
+@media screen and (max-width: 600px) {
+
+.main-header {
+    padding-top: 74px;
+    height: 435px;
+
+.small {
+   margin: 35px 0px 0px 0px;
+   text-align: left;
+   float: left;
+   padding: 0px 0px 1px 19px;
+}
+
+h5 {
+  float: left;
+  margin: -67px 0px 0px 84px;
+  text-align: left;
+}
+}
+
 
 @media screen and (max-width: 414px) {
   nav {
@@ -337,5 +358,16 @@ a:active {
     font-size: 10px;
 }
 
+.small {
+   margin: 35px 0px 0px 0px;
+   text-align: left;
+   float: left;
+   padding: 0px 0px 1px 9px;
+}
 
+h5 {
+  float: left;
+  margin: -28px 0px 0px 48px;
+  text-align: left;
+}
 }
