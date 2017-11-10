@@ -1,5 +1,5 @@
 $('.main-carousel').flickity({
   // options
-  cellAlign: 'center',
+  /**cellAlign: 'center',**/
   contain: true
 });
