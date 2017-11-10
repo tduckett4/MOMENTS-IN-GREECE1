@@ -118,10 +118,11 @@
 }
 
 .primary-content,
-.main-header,
-.main-footer {
+.main-header {
   text-align: center;
+
 }
+
 
 .primary-content {
   width: 75%;
@@ -141,9 +142,11 @@
     text-align: center;
 }
 .main-footer {
-  margin: 20px 0 0 0;
+  margin: 304px 0 0 0;
   padding-bottom: 60px;
   border-top: 2px solid #ffa949;
+  font-size: 10px;
+  text-align: center;
 }
 
 .LearnMoreContent {
@@ -247,7 +250,8 @@ a:active {
     .carousel-cell {
       width: 100%; /* full width */
       height: 475px; /* height of carousel */
-      margin: 35px 10px 0 0;
+      /**margin: 35px 10px 0 0;**/
+
     }
 
     /* position dots in carousel */
@@ -281,36 +285,34 @@ a:active {
   nav {
     padding: 10px 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 28px;
     width: 100%;
-
   }
 
   .learnMoreH1,
   .AthensH1 {
       text-align: center;
       width: 100%;
-      font-size: 70px;
+      font-size: 120px;
       margin: 0;
   }
 
   .primary-content {
     width: 75%;
-    padding-top: 75px;
-    padding-bottom: 95px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
     max-width: 960px;
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .LearnMoreLink {
-    font-size: 60px;
+    font-size: 90px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
 .main-header {
     padding-top: 74px;
@@ -328,14 +330,24 @@ h5 {
   margin: -67px 0px 0px 84px;
   text-align: left;
 }
+
+.primary-content {
+  width: 75%;
+  padding-top: 75px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+  font-size: 18px;
+}
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
   nav {
     padding: 10px 0;
     text-align: center;
-    font-size: 12px;
+    font-size: 22px;
     width: 100%;
   }
 
@@ -343,7 +355,7 @@ h5 {
   .AthensH1 {
       text-align: center;
       width: 100%;
-      font-size: 50px;
+      font-size: 70px;
       margin: 0;
   }
 
@@ -355,7 +367,7 @@ h5 {
     padding-right: 50px;
     margin: auto;
     max-width: 960px;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .small {
