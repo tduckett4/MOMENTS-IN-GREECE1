@@ -92,7 +92,9 @@
 
 .P22Dearest,
 .learnMoreH1,
-.AthensH1 {
+.AthensH1,
+.SantoriniH1
+ {
     font-family: 'P22DearestScript', Helvetica, Arial, sans-serif;
     font-size: 5.625rem;
     font-weight: 200;
@@ -105,7 +107,8 @@
 }
 
 .learnMoreH1,
-.AthensH1 {
+.AthensH1,
+.SantoriniH1 {
     color: #ffa949;
     text-transform: none;
     text-shadow: none;
@@ -234,9 +237,15 @@ a:active {
   background-size: cover;
 }
 
-.learnMore-header{
+.Santorini-header{
   background: linear-gradient(14deg, #fff, 30%, transparent),
               url(../img/IMG_5775.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.learnMore-header{
+  background: linear-gradient(14deg, #fff, 30%, transparent),
+              url(../img/IMG_6155.jpg) no-repeat center;
   background-size: cover;
 }
 .main-header {
@@ -290,7 +299,8 @@ a:active {
   }
 
   .learnMoreH1,
-  .AthensH1 {
+  .AthensH1,
+  .SantoriniH1 {
       text-align: center;
       width: 100%;
       font-size: 120px;
@@ -352,7 +362,8 @@ h5 {
   }
 
   .learnMoreH1,
-  .AthensH1 {
+  .AthensH1,
+  .SantoriniH1 {
       text-align: center;
       width: 100%;
       font-size: 70px;
